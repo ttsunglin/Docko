@@ -1,5 +1,5 @@
 # Docko
-Collecting tool of autodock vina data
+Collecting tool of Autodock vina data
 
 This is a tool that helps to collect Autodock vina results 
 when screening protein-ligands following the tutorial uploaded 
