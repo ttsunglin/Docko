@@ -15,4 +15,11 @@ time-consuming when I tried to copy all the interested results to Pymol.
 This tool provides two functions, first, collect the results of the smallest binding energy of all logfiles;
 second, recognize the top(%) results and copy the pdbqt files to the R folder.
 
+How to use:
+Change the variables and run all codes.
+
+20210813 uploaded
+
+For further questions or advices, contact ttsunglin@gmail.com
+
 
