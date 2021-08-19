@@ -8,6 +8,7 @@ import_exp <- "Your_project_name" #Name your project
 file_location <- "C:\\Enter\\Your\\Docking\\Result_Folder" #The location of out.pdbqt and .log files
 
 ligand_sdf_location <- "C:\\Enter\\Your\\separated\\sdf_location" #seperated sdf files containg ZINC ID
+number_of_ligands <- 1614 #Enter the number of ligands included in the ligand binding exp.
 sort_threshold <- 5  # top _% of strongest binding interested
 
 #----extract data from log file----
@@ -23,7 +24,7 @@ EXTRACTENERGY <- function(file_no){
   out
 }
 
-energy_list <- t(apply(data.frame(c(1:1614)), 1, EXTRACTENERGY)) %>% as.data.frame()
+energy_list <- t(apply(data.frame(c(1:number_of_ligands)), 1, EXTRACTENERGY)) %>% as.data.frame()
 colnames(energy_list) <- c("log_no", "log_energy", "ligand_no")
 
 dir.create(import_exp)
