@@ -19,6 +19,7 @@ How to use:
 Change the variables and run all codes.
 
 20210813 uploaded
+20210820 Adding a variable of ligand numbers
 
 For further questions or advices, contact ttsunglin@gmail.com
 
