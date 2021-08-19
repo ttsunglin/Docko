@@ -18,7 +18,7 @@ second, recognize the top(%) results and copy the pdbqt files to the R folder.
 How to use:
 Change the variables and run all codes.
 
-20210813 uploaded
+20210813 uploaded <br/>
 20210820 Adding a variable of ligand numbers
 
 For further questions or advices, contact ttsunglin@gmail.com
